@@ -22,5 +22,3 @@ All snippets are generate by typing the abbreviation then pressing tab
 * *rp* - Post route
 * *rd* - Delete route
 * *rpu* - Put route
-
-
