@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(function($) {
+	<string>(function(\$) {
   
-  var app = $.sammy(function() {
+  var app = \$.sammy(function() {
     this.element_selector = '#${1:element_id}';
     
     $2
 
   });
   
-  $(function() {
+  \$(function() {
     app.run('#/');
   });
   
