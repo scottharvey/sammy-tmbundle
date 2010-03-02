@@ -1,0 +1,26 @@
+h1. TextMate bundle for Javascript development with Sammy
+
+To install with Git:
+
+<pre>
+mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+cd ~/Library/Application\ Support/TextMate/Bundles
+git clone git@github.com:harvinius/sammy-tmbundle.git "Sammy.tmbundle"
+osascript -e 'tell app "TextMate" to reload bundles'
+</pre>
+
+h2. Snippets
+
+All snippets are generate by typing the abbreviation then pressing tab
+
+* *app* - Generate the scaffolding for a new application
+* *aft* - After callback
+* *bef* - Before callback
+* *bind* - Create an event binding
+* *trig* - Trigger an event
+* *rg* - Get route
+* *rp* - Post route
+* *rd* - Delete route
+* *rpu* - Put route
+
+
