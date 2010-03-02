@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>this.get('#/${1:route}', function(${2:context}) {
+  $3
+});</string>
+	<key>name</key>
+	<string>route-get</string>
+	<key>tabTrigger</key>
+	<string>rg</string>
+	<key>uuid</key>
+	<string>E65BF806-146A-456D-8F86-DEF38E09F556</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(function($) {
+  
+  var app = $.sammy(function() {
+    this.element_selector = '#${1:element_id}';
+    
+    $2
+
+  });
+  
+  $(function() {
+    app.run('#/');
+  });
+  
+})(jQuery);
+</string>
+	<key>name</key>
+	<string>new app</string>
+	<key>tabTrigger</key>
+	<string>app</string>
+	<key>uuid</key>
+	<string>3760E6CF-6F7A-4C23-B831-416E9914D925</string>
+</dict>
+</plist>

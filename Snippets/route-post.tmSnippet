@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>this.post('#/${1:route}', function(${2:context}) {
+  $3
+});</string>
+	<key>name</key>
+	<string>route-post</string>
+	<key>tabTrigger</key>
+	<string>rp</string>
+	<key>uuid</key>
+	<string>B82074A5-EF0B-469E-B438-0F5F06A3183E</string>
+</dict>
+</plist>

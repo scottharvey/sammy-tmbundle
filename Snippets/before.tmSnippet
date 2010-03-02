@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>this.before('#/${1:route}', function() {
+  $2
+});</string>
+	<key>name</key>
+	<string>before</string>
+	<key>tabTrigger</key>
+	<string>bef</string>
+	<key>uuid</key>
+	<string>9F1167E0-D224-4D07-B003-BE1BE6B009D5</string>
+</dict>
+</plist>
